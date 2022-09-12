@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap');
+
+body {
+    background-color: rgb(204, 204, 245);
+    color:rgb(34, 51, 100);
+   /* font-size: 18px;
+    font-weight: normal;
+    font-family: 'Libre Baskerville', serif; */
+  font: normal 18px 'Libre Baskerville', serif ;
+   }
+   a {
+   color: rgb(250, 244, 237); 
+   text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(152, 255, 221);
+}
+a:visited{
+   color: RGB(300, 244, 237);
+   }
+
+   .box{
+    max-width: 50%;    
+    margin: auto;
+    padding-top: 30px;
+}
+   .avatar {
+width: 150px;
+border-radius: 20px;
+box-shadow: 4px 4px 14px rgb(10, 10, 10);
+}
+.inf {display: flex;
+}
+
+.inf p{
+color: rgb(11, 78, 78);
+/*text-decoration: underline; */
+margin: 0;
+text-transform: uppercase ;
+letter-spacing: 3px;
+/*word-spacing: 4px;*/
+}
+.info-text{
+    margin-left: 40px;
+    
+}
+@media (max-width: 700px){
+    .inf{text-align: center;
+        display: block;}
+}
+.Social {
+    background: rgb(169, 173, 231);
+    padding: 10px 20px;
+    /*border: 2px solid rgb(0, 17, 255);*/
+    /*border-bottom-style:dashed;*/
+    /*border-top-width: 10px ;*/
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    
+}
+.navik {
+    background: rgb(169, 173, 231);
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    /*color: rgb(250, 244, 237)*/
+}
+.navik li {
+    color: rgb(250, 244, 237);
+    margin-bottom: 10px;
+    list-style-type:circle ;
+}
+.card{
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 15px ;
+    background: rgb(169, 173, 231);
+}
+.List {
+    padding: 0px 20px;
+    }
+.List li {
+    color: rgb(250, 244, 237);
+    margin-bottom: 10px;
+    list-style-type:circle;
+    
+}
+.tab {
+    width: 100%;
+}
+.tab td {
+    padding-bottom: 10px;
+
+}
+.tab td:nth-child(2),.tab td:nth-child(3),.tab td:nth-child(4) {
+color: rgb(250, 244, 237);
+}
+.contact h3 {
+text-align: center;
+}
+.form-group label{
+display: block;
+font-size: 14px;
+}
+.form-group input, .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    color: black;
+    outline: none;
+    font-family: inherit;
+    padding: 15px 0px 10px;
+}
+.btn {
+    background-color: rgb(71, 71, 238);
+    padding: 15px 20px  ;
+    color: aliceblue;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    }
+.btn:hover {
+    opacity: 0.9;
+
+}
